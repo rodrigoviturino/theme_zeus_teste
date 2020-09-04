@@ -1,0 +1,24 @@
+/*
+Theme Name: Zeus Theme
+Text Domain: zeustheme
+Version: 1.0
+Requires PHP: 5.2.4
+Description: Desenvolvimento theme para teste.
+Author: Rodrigo Viturino
+Author URI: http://rodrigoviturino.com.br/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import "./bs_scss/bootstrap";
+@import "./bs_scss/bootstrap-reboot";
+@import "./bs_scss/bootstrap-grid";
+
+/* Base */
+@import "font";
+@import "global";
+/* end Base*/
+
+@import "pages/header";
+@import "pages/home";
+@import "pages/footer";

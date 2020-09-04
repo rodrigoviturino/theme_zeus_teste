@@ -1,0 +1,14 @@
+{
+  "name": "zeus_advocacia",
+  "version": "1.0.0",
+  "description": "Desenvolvimento website para teste",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rodrigo Viturino",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  }
+}
