@@ -2,7 +2,9 @@
 
 <section class="introducao">
     <div class="container">
-        <p>Conteudo</p>
+        <div class="introducao__block-title">
+            <p>Simple solution to complex questions</p>
+        </div>
     </div>
 
 </section>
