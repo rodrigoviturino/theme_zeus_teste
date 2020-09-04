@@ -5,6 +5,10 @@
   width: 100%;
   z-index: 10;
 
+  .container {
+    max-width: 1560px !important;
+  }
+
   &__wrapper {
     display: flex;
     align-items: center;
@@ -28,6 +32,12 @@
       }
     }
 
+    .navbar-brand{
+      img {
+        margin-top: 30px !important;
+      }
+    }
+
     .navbar-primary {
 
       ul {
@@ -43,10 +53,14 @@
           margin-right: 5px;
 
           a {
-            color: #333;
+            color: #fff;
             text-decoration: none;
             transition: all 0.5s;
-            padding: 10px 30px 10px;
+            //padding: 10px 30px 10px;
+            padding: 53px 30px 21px;
+            font-weight: 500;
+            text-transform: capitalize;
+            @include responsive-font-size(15px);
 
             &:hover {
               background-color: #f43930;
@@ -58,17 +72,26 @@
     }
 
     .handle-contact {
+      margin-top: 40px;
       ul{
         display: flex;
         align-items: center;
         margin: 0;
         list-style: none;
 
+        span {
+          display: inline-block;
+          color: #fff;
+          padding: 0 10px;
+        }
+
         li {
           display: flex;
           a {
             color: #fff;
             text-decoration: none;
+            font-weight: 600;
+            @include responsive-font-size(18px);
           }
         }
       }

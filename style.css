@@ -14438,6 +14438,9 @@ body {
   width: 100%;
   z-index: 10;
 }
+.header .container {
+  max-width: 1560px !important;
+}
 .header__wrapper {
   display: flex;
   align-items: center;
@@ -14459,6 +14462,9 @@ body {
   height: 3px;
   margin-bottom: 5px;
 }
+.header__wrapper .navbar-brand img {
+  margin-top: 30px !important;
+}
 .header__wrapper .navbar-primary ul {
   list-style: none;
   display: flex;
@@ -14472,14 +14478,20 @@ body {
   margin-right: 5px;
 }
 .header__wrapper .navbar-primary ul li a {
-  color: #333;
+  color: #fff;
   text-decoration: none;
   transition: all 0.5s;
-  padding: 10px 30px 10px;
+  padding: 53px 30px 21px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 0.9375rem;
 }
 .header__wrapper .navbar-primary ul li a:hover {
   background-color: #f43930;
   color: #fff;
+}
+.header__wrapper .handle-contact {
+  margin-top: 40px;
 }
 .header__wrapper .handle-contact ul {
   display: flex;
@@ -14487,12 +14499,19 @@ body {
   margin: 0;
   list-style: none;
 }
+.header__wrapper .handle-contact ul span {
+  display: inline-block;
+  color: #fff;
+  padding: 0 10px;
+}
 .header__wrapper .handle-contact ul li {
   display: flex;
 }
 .header__wrapper .handle-contact ul li a {
   color: #fff;
   text-decoration: none;
+  font-weight: 600;
+  font-size: 1.125rem;
 }
 
 .introducao {

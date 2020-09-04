@@ -56,14 +56,15 @@
             <div class="handle-contact">
                 <ul>
                     <li>
-                        <a href="#"
+                        <a href="#">
                             <i class="fas fa-phone-alt"></i>(11) 12345-6789</li>
                         </a>
 
                     <span>|</span>
+
                     <li>
                         <a href="#">
-                            <i class="far fa-envelope"></i> info@zeus.com.br
+                            <i class="far fa-envelope"></i> info@zeus.com
                         </a>
                     </li>
                 </ul>
