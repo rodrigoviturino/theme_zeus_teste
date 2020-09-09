@@ -22,8 +22,8 @@ function zeus_after_setup(){
 
     register_nav_menus(
         array(
-            "primary" => __('Menu Header', 'wp_example'),
-            "footer_menu" => __('Menu Footer', 'odin')
+            "menu-primary" => __('Menu Header', 'Menu Principal'),
+            "footer-menu" => __('Menu Footer', 'odin')
         )
     );
 

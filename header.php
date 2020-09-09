@@ -22,35 +22,49 @@
 <!--                </a>-->
 <!--            </div>-->
 
+            <!-- Logo -->
             <a class="navbar-brand" href="#">
                 <?php
-                    if ( function_exists( 'the_custom_logo' ) ) {
-                        the_custom_logo();
-                    }
+                if ( function_exists( 'the_custom_logo' ) ) {
+                    the_custom_logo();
+                }
                 ?>
             </a>
 
-            <nav class="m-auto navbar-primary">
-                <ul>
+            <nav class="navbar-primary m-auto">
+<!--                <ul>-->
+<!---->
+<!--                    <li class="active">-->
+<!--                        <a href="">Home</a>-->
+<!--                    </li>-->
+<!---->
+<!--                    <li>-->
+<!--                        <a href="">About Us</a>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <a href="">Services</a>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <a href="">News</a>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <a href="">Contact</a>-->
+<!--                    </li>-->
+<!---->
+<!--                </ul>-->
 
-                    <li>
-                        <a href="">Home</a>
-                    </li>
 
-                    <li>
-                        <a href="">About Us</a>
-                    </li>
-                    <li>
-                        <a href="">Services</a>
-                    </li>
-                    <li>
-                        <a href="">News</a>
-                    </li>
-                    <li>
-                        <a href="">Contact</a>
-                    </li>
-
-                </ul>
+                <?php
+                if( has_nav_menu('menu-primary') ) {
+                    wp_nav_menu([
+                        'theme_location' => 'menu-primary',
+                        'fallback_cb' => false,
+                        'container_class' => null,
+                        'container_id' => 'navbarResponsive',
+                        'menu_class' => 'menu'
+                    ]);
+                }
+                ?>
             </nav>
 
             <div class="handle-contact">
