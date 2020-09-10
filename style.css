@@ -15276,16 +15276,16 @@ body {
   font-size: 0.875rem;
 }
 
-.intro-interna {
+.pageAbout__intro-interna {
   background-image: url("assets/images/bg-home-introducao.jpg");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 200px 0;
+  padding: 200px 0 134px;
   position: relative;
   z-index: 0;
 }
-.intro-interna::before {
+.pageAbout__intro-interna::before {
   content: "";
   display: inline-block;
   position: absolute;
@@ -15297,24 +15297,86 @@ body {
   opacity: 0.85;
   z-index: -1;
 }
-.intro-interna .container {
+.pageAbout__intro-interna .container {
   max-width: 1560px !important;
 }
-.intro-interna__wrapper {
+.pageAbout__intro-interna__wrapper {
   display: flex;
   align-items: center;
 }
-.intro-interna__wrapper-network ul {
+.pageAbout__intro-interna__wrapper-network {
+  flex: 0 0 130px;
+}
+.pageAbout__intro-interna__wrapper-network ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pageAbout__intro-interna__wrapper-network ul li {
   margin: 0;
   padding: 0;
 }
-.intro-interna__wrapper-network ul li {
-  margin: 0;
-  padding: 0;
+.pageAbout__intro-interna__wrapper-network ul li a {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
 }
-.intro-interna__wrapper-block-title h2 {
+.pageAbout__intro-interna__wrapper-network ul li a i {
+  color: #686868;
+}
+.pageAbout__intro-interna__wrapper-block-title .title {
+  color: #fff;
+  font-family: "Cormorant", Serif;
+  line-height: 83px;
+  font-weight: 700;
+  font-size: 5.1875rem;
+}
+.pageAbout__intro-interna__wrapper-block-title .pageHome {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+}
+.pageAbout__intro-interna__wrapper-block-title .separator {
+  display: inline-block;
+  padding: 0 1rem;
+}
+.pageAbout__intro-interna__wrapper-block-title .pageAtual {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.pageAbout__intro-interna__wrapper-block-title p {
   color: #fff;
 }
-.intro-interna__wrapper-block-title p {
-  color: #fff;
+.pageAbout__about {
+  padding: 180px 0;
 }
+.pageAbout__about .abt-img {
+  position: relative;
+}
+.pageAbout__about .abt-img::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #262626;
+  opacity: 0.85;
+}
+/* Page Internal */
+p {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  color: rgba(38, 38, 38, 0.6);
+  line-height: 28px;
+  margin-bottom: 20px;
+  font-size: 1.125rem;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+/* end Page Internal */
