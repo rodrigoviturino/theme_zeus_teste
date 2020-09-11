@@ -6,7 +6,7 @@ get_header();
 <?php if(have_posts()) : while(have_posts()): the_post(); ?>
   <main class="pageServices">
 
-    <section class="intro-internal overlay">
+    <section class="intro-interna overlay">
       <div class="container">
         <?php get_template_part( 'template-parts/intro','interna'); ?>
       </div>
@@ -21,6 +21,12 @@ get_header();
     <section class="pageServices__porcents">
       <div class="container">
         <?php get_template_part("template-parts/services/block", "porcents"); ?>
+      </div>
+    </section>
+
+    <section class="pageServices__price">
+      <div class="container">
+        <?php get_template_part("template-parts/services/block", "price"); ?>
       </div>
     </section>
 

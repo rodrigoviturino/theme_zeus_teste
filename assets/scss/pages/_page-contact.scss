@@ -1,8 +1,71 @@
 .pageContact {
   &__form {
+    padding: 120px 0;
     &-block-title {
       &-title {
         color: red;
+      }
+      .list {
+        list-style: none;
+        .item {
+          padding: 0;
+          margin: 0;
+          font-weight: 500;
+          line-height: 34px;
+          color: #262626;
+          margin-bottom: map-get($spacers, 4);
+          display: flex;
+          align-items: center;
+          @include responsive-font-size(26px);
+
+          .text-gray {
+            color: #7a7a7a;
+          }
+          i {
+            flex: 0 0 60px;
+            color: #f43930;
+            margin-right: map-get($spacers, 4);
+          }
+          .t {
+            flex: 0 0 300px;
+          }
+        }
+      }
+    }
+    &-boxSend {
+      background-color: #eee;
+      padding: 74px 60px 77px;
+
+      .title {
+        font-family: "Cormorant", serif;
+        font-weight: 700;
+        color: #262626;
+        line-height: 60px;
+        @include responsive-font-size(68px);
+      }
+
+      #form-pageContact {
+        input {
+          width: 100%;
+          background: inherit;
+          border: 0;
+          border-radius: 0;
+          padding: 0;
+          border-bottom: solid 2px #c6c6c6;
+          padding-bottom: 15px;
+          color: #ffffff;
+          font-size: 15px;
+        }
+        .btnSend {
+          background-color: #f43930;
+          color: #fff;
+          border-radius: 50px;
+          width: 80px;
+          height: 80px;
+          border: none;
+          display: inline-block;
+          margin-left: 1.5rem;
+        }
       }
     }
   }

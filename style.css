@@ -15416,6 +15416,75 @@ body {
   color: #656565;
   font-size: 1.5rem;
 }
+.pageServices__price-block-title {
+  padding-bottom: 80px;
+}
+.pageServices__price-block-title .title {
+  color: #262626;
+  font-family: "Cormorant", serif;
+  font-weight: 700;
+  line-height: 60px;
+  font-size: 4.25rem;
+}
+.pageServices__price-card {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.5s ease-in-out;
+  webkit-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  padding: 70px 75px 78px;
+}
+.pageServices__price-card:hover {
+  transition: all 0.5s;
+  background-color: #262626;
+  opacity: 0.85;
+}
+.pageServices__price-card:hover .plan {
+  color: #fff;
+}
+.pageServices__price-card:hover .price {
+  color: #fff;
+}
+.pageServices__price-card:hover .benefits li {
+  color: #aaaaaa;
+}
+.pageServices__price-card .plan {
+  font-family: "Cormorant", serif;
+  font-weight: 700;
+  color: #262626;
+  margin-bottom: 30px;
+  font-size: 3.125rem;
+}
+.pageServices__price-card .price {
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  color: #262626;
+  margin-bottom: 25px;
+  font-size: 3.75rem;
+}
+.pageServices__price-card .benefits {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.pageServices__price-card .benefits li {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: rgba(38, 38, 38, 0.7);
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+.pageServices__price-card .link {
+  display: inline-block;
+  color: #f43930;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: solid 1px #f43930;
+  padding-bottom: 0.25rem;
+  font-size: 1.125rem;
+}
+.pageServices__price-card .link:hover {
+  text-decoration: none;
+}
 .pageServices__clients {
   padding: 80px 0;
 }
@@ -15428,6 +15497,70 @@ body {
   text-transform: uppercase;
   color: #adadad;
   font-size: 2.1875rem;
+}
+
+.pageContact__form {
+  padding: 120px 0;
+}
+.pageContact__form-block-title-title {
+  color: red;
+}
+.pageContact__form-block-title .list {
+  list-style: none;
+}
+.pageContact__form-block-title .list .item {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  line-height: 34px;
+  color: #262626;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.625rem;
+}
+.pageContact__form-block-title .list .item .text-gray {
+  color: #7a7a7a;
+}
+.pageContact__form-block-title .list .item i {
+  flex: 0 0 60px;
+  color: #f43930;
+  margin-right: 1.5rem;
+}
+.pageContact__form-block-title .list .item .t {
+  flex: 0 0 300px;
+}
+.pageContact__form-boxSend {
+  background-color: #eee;
+  padding: 74px 60px 77px;
+}
+.pageContact__form-boxSend .title {
+  font-family: "Cormorant", serif;
+  font-weight: 700;
+  color: #262626;
+  line-height: 60px;
+  font-size: 4.25rem;
+}
+.pageContact__form-boxSend #form-pageContact input {
+  width: 100%;
+  background: inherit;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  border-bottom: solid 2px #c6c6c6;
+  padding-bottom: 15px;
+  color: #ffffff;
+  font-size: 15px;
+}
+.pageContact__form-boxSend #form-pageContact .btnSend {
+  background-color: #f43930;
+  color: #fff;
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  border: none;
+  display: inline-block;
+  margin-left: 1.5rem;
 }
 
 /* Page Internal */
