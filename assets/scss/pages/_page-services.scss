@@ -19,6 +19,85 @@
     }
   }
 
+  &__price {
+    &-block-title {
+      padding-bottom: 80px;
+      .title {
+        color: #262626;
+        font-family: "Cormorant", serif;
+        font-weight: 700;
+        line-height: 60px;
+        @include responsive-font-size(68px);
+      }
+    }
+
+    &-card {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+      transition: all 0.5s ease-in-out;
+      webkit-transition: all 0.4s ease-in-out;
+      -ms-transition: all 0.4s ease-in-out;
+      padding: 70px 75px 78px;
+
+      &:hover {
+        transition: all 0.5s;
+        background-color: #262626;
+        opacity: 0.85;
+
+        .plan {
+          color: #fff;
+        }
+        .price {
+          color: #fff;
+        }
+        .benefits {
+          li {
+            color: #aaaaaa;
+          }
+        }
+      }
+
+      .plan {
+        font-family: "Cormorant", serif;
+        font-weight: 700;
+        color: #262626;
+        margin-bottom: 30px;
+        @include responsive-font-size(50px);
+      }
+      .price {
+        font-family: "Cinzel", serif;
+        font-weight: 700;
+        color: #262626;
+        margin-bottom: 25px;
+        @include responsive-font-size(60px);
+      }
+      .benefits {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 30px;
+
+        li {
+          margin-bottom: map-get($spacers, 2);
+          font-weight: 500;
+          color: rgba(38, 38, 38, 0.7);
+          margin-bottom: 10px;
+          @include responsive-font-size(16px);
+        }
+      }
+      .link {
+        display: inline-block;
+        color: #f43930;
+        font-weight: 600;
+        text-decoration: none;
+        border-bottom: solid 1px #f43930;
+        padding-bottom: map-get($spacers, 1);
+        @include responsive-font-size(18px);
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
   &__clients {
     padding: 80px 0;
 
