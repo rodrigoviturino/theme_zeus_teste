@@ -23,9 +23,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 @import "pages/home";
 @import "pages/page-about";
+@import "pages/page-services";
 
 /* Page Internal */
-  @import "default-internal";
+@import "default-internal";
 /* end Page Internal */
+
+/* Includes */
+@import "includes/intro-internal";
+/* end Includes */
 
 @import "pages/footer";

@@ -1,0 +1,37 @@
+.pageServices {
+  padding: 120px 0;
+
+  &__porcents {
+    padding: 80px 0;
+    h2 {
+      color: #f43930;
+      font-weight: 400;
+      font-family: "Cinzel", serif;
+      @include responsive-font-size(80px);
+    }
+    span {
+      display: inline-block;
+      max-width: 120px;
+      line-height: 30px;
+      font-weight: 500;
+      color: #656565;
+      @include responsive-font-size(24px);
+    }
+  }
+
+  &__clients {
+    padding: 80px 0;
+
+    .cliente {
+      text-align: center;
+
+      h3 {
+        font-weight: 600;
+        margin-top: map-get($spacers, 3);
+        text-transform: uppercase;
+        color: #adadad;
+        @include responsive-font-size(35px);
+      }
+    }
+  }
+}

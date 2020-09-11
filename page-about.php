@@ -36,6 +36,70 @@ get_header();
         </div>
     </section>
 
+    <section class="pageAbout__porcents">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2>21%</h2>
+                    <span>charges dropped</span>
+                </div>
+
+                <div class="col-md-3">
+                    <h2>82%</h2>
+                    <span>countersuit filed</span>
+                </div>
+
+                <div class="col-md-3">
+                    <h2>57%</h2>
+                    <span>cases dismissed</span>
+                </div>
+
+                <div class="col-md-3">
+                    <h2>77%</h2>
+                    <span>cases won</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter overlay">
+        <div class="container">
+            <?php get_template_part( 'template-parts/home/page', 'newsletter' ); ?>
+        </div>
+    </section>
+
+    <section class="pageAbout__clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="cliente">
+                        <img src="<?= get_template_directory_uri(); ?>/assets/images/cliente1.png" alt="Logo Cliente 01">
+                        <h3>Identity</h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cliente">
+                        <img src="<?= get_template_directory_uri(); ?>/assets/images/cliente2.png" alt="Logo Cliente 02">
+                        <h3>mounta</h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cliente">
+                        <img src="<?= get_template_directory_uri(); ?>/assets/images/cliente3.png" alt="Logo Cliente 03">
+                        <h3>globe</h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cliente">
+                        <img src="<?= get_template_directory_uri(); ?>/assets/images/cliente4.png" alt="Logo Cliente 04">
+                        <h3>circle</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 </main>
 
