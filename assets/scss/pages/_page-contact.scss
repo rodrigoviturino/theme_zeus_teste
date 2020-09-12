@@ -25,6 +25,7 @@
             flex: 0 0 60px;
             color: #f43930;
             margin-right: map-get($spacers, 4);
+            @include responsive-font-size(40px);
           }
           .t {
             flex: 0 0 300px;
@@ -43,6 +44,12 @@
         line-height: 60px;
         @include responsive-font-size(68px);
       }
+      .text {
+        font-weight: 500;
+        color: rgba(38, 38, 38, 0.7);
+        margin-bottom: 80px;
+        @include responsive-font-size(16px);
+      }
 
       #form-pageContact {
         input {
@@ -55,6 +62,13 @@
           padding-bottom: 15px;
           color: #ffffff;
           font-size: 15px;
+          margin-bottom: 50px;
+        }
+        textarea {
+          width: 100%;
+          background-color: transparent;
+          border: none;
+          border-bottom: solid 2px #c6c6c6;
         }
         .btnSend {
           background-color: #f43930;

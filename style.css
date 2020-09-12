@@ -15526,6 +15526,7 @@ body {
   flex: 0 0 60px;
   color: #f43930;
   margin-right: 1.5rem;
+  font-size: 2.5rem;
 }
 .pageContact__form-block-title .list .item .t {
   flex: 0 0 300px;
@@ -15541,6 +15542,12 @@ body {
   line-height: 60px;
   font-size: 4.25rem;
 }
+.pageContact__form-boxSend .text {
+  font-weight: 500;
+  color: rgba(38, 38, 38, 0.7);
+  margin-bottom: 80px;
+  font-size: 1rem;
+}
 .pageContact__form-boxSend #form-pageContact input {
   width: 100%;
   background: inherit;
@@ -15551,6 +15558,13 @@ body {
   padding-bottom: 15px;
   color: #ffffff;
   font-size: 15px;
+  margin-bottom: 50px;
+}
+.pageContact__form-boxSend #form-pageContact textarea {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 2px #c6c6c6;
 }
 .pageContact__form-boxSend #form-pageContact .btnSend {
   background-color: #f43930;

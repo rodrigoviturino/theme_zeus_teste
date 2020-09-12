@@ -1,28 +1,28 @@
-<div class="row">
+<div class="row align-items-center">
   <div class="col-md-4">
     <div class="pageContact__form-block-title">
       <ul class="list">
         <li class="item">
-          <i class="fas fa-map-marker-alt fa-2x"></i>
+          <i class="fas fa-map-marker-alt"></i>
           <div class="t">
             340 Woodland Dr. Southaven, MS 38671
           </div>
         </li>
         <li class="item">
-          <i class="far fa-clock fa-2x"></i>
+          <i class="far fa-clock"></i>
           <div class="t">
             <span class="text-gray">Mon-Sat:</span> 8 am til 5 pm
             <span class="text-gray">Sunday:</span> Closed
           </div>
         </li>
         <li class="item">
-          <i class="fas fa-phone-volume fa-2x"></i>
+          <i class="fas fa-phone-volume"></i>
           <div class="t">
             +44 62 7146 9812
           </div>
         </li>
         <li class="item">
-          <i class="far fa-envelope fa-2x"></i>
+          <i class="far fa-envelope"></i>
           <div class="t">
             contato@rodrigoviturino.com.br
           </div>
@@ -46,13 +46,11 @@
             <input type="text" class="form-control" placeholder="Last name">
           </div>
           <div class="col-10 mt-2">
-            <input type="textarea" class="form-control" placeholder="Message">
+            <textarea name="message" id="message" placeholder="Message"></textarea>
           </div>
           <div class="col-2">
             <button class="btn btn-danger btnSend">Send</button>
           </div>
-
-
         </div>
       </form>
     </div>
