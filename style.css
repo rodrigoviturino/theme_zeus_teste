@@ -15577,6 +15577,126 @@ body {
   margin-left: 1.5rem;
 }
 
+.pageNews__intro-interna {
+  background-image: url("assets/images/bg-home-introducao.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0 134px;
+  position: relative;
+  z-index: 0;
+}
+.pageNews__intro-interna::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #262626;
+  opacity: 0.85;
+  z-index: -1;
+}
+.pageNews__intro-interna .container {
+  max-width: 1560px !important;
+}
+.pageNews__intro-interna__wrapper {
+  display: flex;
+  align-items: center;
+}
+.pageNews__intro-interna__wrapper-network {
+  flex: 0 0 130px;
+}
+.pageNews__intro-interna__wrapper-network ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pageNews__intro-interna__wrapper-network ul li {
+  margin: 0;
+  padding: 0;
+}
+.pageNews__intro-interna__wrapper-network ul li a {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+.pageNews__intro-interna__wrapper-network ul li a i {
+  color: #686868;
+}
+.pageNews__intro-interna__wrapper-block-title .title {
+  color: #fff;
+  font-family: "Cormorant", Serif;
+  line-height: 83px;
+  font-weight: 700;
+  font-size: 5.1875rem;
+}
+.pageNews__intro-interna__wrapper-block-title .pageHome {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+}
+.pageNews__intro-interna__wrapper-block-title .separator {
+  display: inline-block;
+  padding: 0 1rem;
+}
+.pageNews__intro-interna__wrapper-block-title .pageAtual {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.pageNews__intro-interna__wrapper-block-title p {
+  color: #fff;
+}
+.pageNews__pageContent__card {
+  display: flex;
+  align-items: center;
+}
+.pageNews__pageContent__card .infos {
+  margin-left: 3rem;
+}
+.pageNews__pageContent__card .infos .category {
+  display: inline-block;
+  color: #f43930;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+  font-size: 0.9375rem;
+}
+.pageNews__pageContent__card .infos .title {
+  font-family: "Cormorant", serif;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 1.5rem;
+  font-size: 2.25rem;
+}
+.pageNews__pageContent__card .infos .description {
+  color: rgba(38, 38, 38, 0.5);
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  line-height: 21px;
+  font-size: 0.875rem;
+}
+.pageNews__pageContent__card .infos .list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+.pageNews__pageContent__card .infos .list .date {
+  display: inline-block;
+  font-weight: 500;
+  margin-right: 30px;
+  color: rgba(38, 38, 38, 0.5);
+  font-size: 0.875rem;
+}
+.pageNews__pageContent__card .infos .list .views {
+  display: inline-block;
+  color: #f43930;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
 /* Page Internal */
 p {
   font-family: Montserrat, sans-serif;

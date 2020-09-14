@@ -1,4 +1,4 @@
-.introducao{
+.introducao {
   background-image: url("assets/images/bg-home-introducao.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -6,7 +6,7 @@
   width: 100%;
   padding-top: 150px;
 
-  &::before{
+  &::before {
     content: "";
     position: absolute;
     top: 0;
@@ -18,7 +18,7 @@
     opacity: 0.85;
   }
 
-  .container{
+  .container {
     max-width: 1560px;
   }
 
@@ -36,9 +36,9 @@
         margin: 0;
 
         li {
-            &:nth-child(2){
-              margin: 20px 0;
-            }
+          &:nth-child(2) {
+            margin: 20px 0;
+          }
           a {
             color: #686868;
             display: block;
@@ -63,7 +63,7 @@
         @include responsive-font-size(110px);
       }
 
-      a{
+      a {
         display: inline-block;
         padding-top: map-get($spacers, 5);
         color: #f43930;
@@ -74,7 +74,7 @@
         @include responsive-font-size(18px);
       }
 
-      .list-porcents{
+      .list-porcents {
         list-style: none;
         display: flex;
         align-items: center;
@@ -96,7 +96,7 @@
           .text {
             display: block;
             font-family: "Montserrat", sans-serif;
-            color: rgba(255,255,255,0.5);
+            color: rgba(255, 255, 255, 0.5);
             font-weight: 500;
             max-width: 80px;
             @include responsive-font-size(16px);
@@ -105,24 +105,21 @@
       }
     }
 
-    &__card-image{
-
+    &__card-image {
     }
-
   }
-
 }
 
 .about {
   padding: 200px 0;
 
-  &__wrapper{
+  &__wrapper {
     align-items: center;
 
-    &__img-about{
+    &__img-about {
       position: relative;
       width: calc(100% - 26px);
-      &::after{
+      &::after {
         content: "";
         position: absolute;
         background-color: #262626;
@@ -138,7 +135,7 @@
         filter: grayscale(1);
       }
 
-      .icon-play{
+      .icon-play {
         text-decoration: none;
         position: absolute;
         display: flex;
@@ -168,7 +165,7 @@
         left: 60px;
         width: 150px;
         font-family: "Cormorantr", serif;
-        color: rgba(255,255,255,0.3);
+        color: rgba(255, 255, 255, 0.3);
         font-weight: 500;
         line-height: 43px;
         z-index: 3;
@@ -202,10 +199,9 @@
       }
     }
   }
-
 }
 
-.differentials{
+.differentials {
   padding: 200px 0;
   background-image: url("assets/images/bg-services.jpg");
   background-repeat: no-repeat;
@@ -214,7 +210,7 @@
   //background-color: rgba(0,0,0,0.8);
   background-color: #f2f2f2;
 
-  &::before{
+  &::before {
     content: "";
     position: absolute;
     top: 0;
@@ -226,11 +222,11 @@
     opacity: 0.85;
   }
 
-  &__block-text{
+  &__block-text {
     padding: 50px 90px;
     border: solid 1px #6e6e6e;
 
-    h2{
+    h2 {
       font-weight: 600;
       padding-bottom: map-get($spacers, 3);
       color: #fff;
@@ -239,18 +235,18 @@
     p {
       font-weight: 500;
       line-height: 24px;
-      color: rgba(255,255,255,0.5);
+      color: rgba(255, 255, 255, 0.5);
       @include responsive-font-size(16px);
     }
   }
 
-  &__sessionTop{
-    h2{
+  &__sessionTop {
+    h2 {
       font-family: "Cormorant", Serif;
       font-weight: 700;
       color: #fff;
       line-height: 60px;
-      width:500px;
+      width: 500px;
       margin-bottom: 80px;
       @include responsive-font-size(68px);
     }
@@ -262,7 +258,7 @@
 
       li {
         max-width: 270px;
-        &:first-child{
+        &:first-child {
           margin-right: 80px;
         }
         h3 {
@@ -285,7 +281,7 @@
         }
 
         p {
-          color: rgba(255,255,255,0.6);
+          color: rgba(255, 255, 255, 0.6);
           font-weight: 500;
           line-height: 19px;
           @include responsive-font-size(15px);
@@ -343,10 +339,9 @@
       }
     }
   }
-
 }
 
-.services{
+.services {
   padding: 200px 0;
   &__wrapper {
     display: flex;
@@ -372,11 +367,11 @@
     }
   }
 
-  &__cardItem{
+  &__cardItem {
     background-color: #262626;
-    margin-bottom: map-get($spacers,4);
+    margin-bottom: map-get($spacers, 4);
 
-    &-image{
+    &-image {
       img {
         display: block;
         max-width: 100%;
@@ -388,11 +383,11 @@
         }
       }
     }
-    &-blockTitle{
+    &-blockTitle {
       padding: 45px 60px 43px;
       position: relative;
-      &::before{
-        content: '';
+      &::before {
+        content: "";
         display: inline-block;
         background-color: #f43930;
         width: 105px;
@@ -401,19 +396,19 @@
         top: -3px;
         left: 60px;
       }
-      .title{
+      .title {
         a {
           font-weight: 600;
           color: #fff;
           @include responsive-font-size(22px);
         }
       }
-      .text{
+      .text {
         font-weight: 500;
-        color: rgba(255,255,255,0.6);
+        color: rgba(255, 255, 255, 0.6);
         @include responsive-font-size(14px);
       }
-      .link{
+      .link {
         color: #f43930;
         font-weight: 600;
         display: inline-block;
@@ -422,7 +417,7 @@
         transition: all 0.6s;
         @include responsive-font-size(18px);
 
-        &:hover{
+        &:hover {
           color: #fff;
         }
       }
@@ -430,7 +425,7 @@
   }
 }
 
-.newsletter{
+.newsletter {
   padding: 180px 0;
   background-image: url("assets/images/bg-newsletter.jpg");
   background-size: cover;
@@ -438,8 +433,8 @@
   background-repeat: no-repeat;
   position: relative;
 
-  &::before{
-    content: '';
+  &::before {
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -450,9 +445,9 @@
     opacity: 0.85;
   }
 
-  &__block-title{
+  &__block-title {
     margin-bottom: 80px;
-    .title{
+    .title {
       color: #fff;
       font-family: "Cormorant", serif;
       font-weight: 700;
@@ -460,14 +455,14 @@
       margin-bottom: map-get($spacers, 3);
       @include responsive-font-size(68px);
     }
-    .text{
+    .text {
       font-weight: 500;
       color: #aeb4b6;
       @include responsive-font-size(16px);
     }
   }
 
-  #form-newsletter{
+  #form-newsletter {
     background-color: rgba(37, 37, 37, 0.5);
     padding: 95px 70px 80px;
 
@@ -479,11 +474,11 @@
       padding-bottom: map-get($spacers, 3);
     }
 
-    input[name="phone"]{
+    input[name="phone"] {
       margin-left: map-get($spacers, 5);
     }
 
-    button{
+    button {
       background-color: #f43930;
       color: #fff;
       border-radius: 50px;
@@ -496,15 +491,15 @@
   }
 }
 
-.lawyers{
+.lawyers {
   padding: 180px 0;
-  &__block-title{
+  &__block-title {
     display: flex;
     align-items: flex-end;
     justify-content: center;
     margin-bottom: 80px;
 
-    .title{
+    .title {
       font-family: "Cormorant", serif;
       color: #262626;
       font-weight: 700;
@@ -513,8 +508,8 @@
       width: 40%;
       @include responsive-font-size(68px);
     }
-    .text{
-      a{
+    .text {
+      a {
         color: #f43930;
         font-weight: 500;
         padding-bottom: 5px;
@@ -524,36 +519,35 @@
     }
   }
 
-  &__team{
+  &__team {
     margin-bottom: map-get($spacers, 4);
-    &:hover{
-
-      .network{
+    &:hover {
+      .network {
         transition: all 0.5s;
         display: block;
       }
 
-      .infos{
+      .infos {
         transition: all 0.5s;
         width: 100%;
       }
     }
 
-    .thumbnail{
+    .thumbnail {
       img {
         display: block;
         max-width: 100%;
       }
     }
-    .infos{
+    .infos {
       background-color: #262626;
-      padding:23px 50px 25px;
+      padding: 23px 50px 25px;
       position: relative;
       width: calc(100% - 90px);
       transition: all 0.5s;
 
-      &::before{
-        content: '';
+      &::before {
+        content: "";
         display: inline-block;
         background-color: #f43930;
         width: 10px;
@@ -564,7 +558,7 @@
         bottom: 0;
       }
 
-      .name{
+      .name {
         a {
           font-family: "Cormorant", serif;
           font-width: 700;
@@ -573,14 +567,14 @@
           @include responsive-font-size(30px);
         }
       }
-      .office{
+      .office {
         font-weight: 500;
-        color: rgba(255,255,255,0.4);
+        color: rgba(255, 255, 255, 0.4);
         @include responsive-font-size(16px);
       }
     }
 
-    .network{
+    .network {
       display: flex;
       flex-direction: column;
       position: absolute;
@@ -593,7 +587,7 @@
         a {
           color: #686868;
           transition: all 0.5s;
-          &:hover{
+          &:hover {
             color: #f43930;
             transition: all 0.5s;
           }
@@ -601,20 +595,20 @@
       }
     }
 
-    @keyframes  sliceLeft{
-      to{
-        transform: translate3d(0,10px,0);
+    @keyframes sliceLeft {
+      to {
+        transform: translate3d(0, 10px, 0);
       }
-      from{
-        transform: translate3d(0,0px,0);
+      from {
+        transform: translate3d(0, 0px, 0);
       }
     }
   }
 }
 
-.news{
+.news {
   padding: 120px 0;
-  &__block-title{
+  &__block-title {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -628,7 +622,7 @@
       @include responsive-font-size(68px);
     }
 
-    .link{
+    .link {
       font-weight: 600;
       color: #f43930;
       text-decoration: none;
@@ -638,17 +632,17 @@
     }
   }
 
-  &__cards{
+  &__cards {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 
-    &-spotlight{
+    &-spotlight {
       display: flex;
       align-items: flex-end;
       position: relative;
       z-index: 1;
 
-      &::before{
-        content: '';
+      &::before {
+        content: "";
         display: block;
         background-color: #262626;
         position: absolute;
@@ -660,10 +654,10 @@
         z-index: -1;
       }
 
-      .category{
+      .category {
         color: #f43930;
       }
-      .title{
+      .title {
         a {
           color: #fff;
           font-weight: 700;
@@ -674,36 +668,36 @@
           transition: all 0.5s;
           @include responsive-font-size(36px);
 
-          &:hover{
+          &:hover {
             transition: all 0.5s;
             color: #f43930;
           }
         }
       }
-      .date{
+      .date {
         color: rgba(255, 255, 255, 0.4);
         font-weight: 500;
         @include responsive-font-size(14px);
       }
     }
 
-    &-thumbnails{
-      img{
+    &-thumbnails {
+      img {
         display: block;
         max-width: 100%;
         filter: grayscale(1);
         transition: all 0.5s;
-        &:hover{
+        &:hover {
           transition: all 0.5s;
           filter: grayscale(0);
         }
       }
     }
-    &-infos{
+    &-infos {
       padding: 45px 60px 40px;
       position: relative;
-      &::before{
-        content: '';
+      &::before {
+        content: "";
         display: inline-block;
         background-color: #f43930;
         position: absolute;
@@ -713,10 +707,10 @@
         height: 6px;
       }
 
-      &-spotlight{
+      &-spotlight {
         padding: 45px 60px 40px;
       }
-      .category{
+      .category {
         font-weight: 500;
         text-transform: uppercase;
         //color: rgba(255,255,255,0.4);
@@ -724,8 +718,8 @@
         margin-bottom: map-get($spacers, 3);
         @include responsive-font-size(12px);
       }
-      .title{
-        a{
+      .title {
+        a {
           color: #292626;
           font-weight: 700;
           margin-bottom: map-get($spacers, 3);
@@ -734,14 +728,14 @@
           text-decoration: none;
           transition: all 0.5s;
           @include responsive-font-size(36px);
-          &:hover{
+          &:hover {
             transition: all 0.5s;
             color: #f43930;
           }
         }
       }
-      .date{
-        color: rgba(38,38,38,0.5);
+      .date {
+        color: rgba(38, 38, 38, 0.5);
         font-weight: 500;
         @include responsive-font-size(14px);
       }
@@ -749,8 +743,7 @@
   }
 }
 
-
-.testimony{
+.testimony {
   padding: 120px 0;
   background-image: url("assets/images/bg-testimony.jpg");
   background-repeat: no-repeat;
@@ -759,8 +752,8 @@
   position: relative;
   z-index: 0;
 
-  &::before{
-    content: '';
+  &::before {
+    content: "";
     display: block;
     position: absolute;
     top: 0;
@@ -772,13 +765,13 @@
     z-index: -1;
   }
 
-  &__block-title{
+  &__block-title {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 80px;
 
-    .title{
+    .title {
       font-family: "Cormorant", serif;
       color: #fff;
       line-height: 60px;
@@ -786,20 +779,20 @@
       width: 40%;
       @include responsive-font-size(68px);
     }
-    .arrows{
+    .arrows {
       list-style: none;
       display: flex;
       color: #fff;
 
       li {
-        &:nth-child(2){
+        &:nth-child(2) {
           margin-left: 20px;
         }
       }
     }
   }
 
-  &__card{
+  &__card {
     background-color: rgba(37, 37, 37, 0.7);
     padding: 50px 55px;
     border: solid 1px #7c7c7c;
@@ -808,8 +801,8 @@
     align-items: flex-start;
     margin-bottom: map-get($spacers, 5);
 
-    &::before{
-      content: '\f10e';
+    &::before {
+      content: "\f10e";
       font-family: "Font Awesome 5 Free";
       font-weight: 900;
       display: block;
@@ -820,40 +813,39 @@
       @include responsive-font-size(50px);
     }
 
-    &-thumbnails{
+    &-thumbnails {
       margin-right: map-get($spacers, 4);
-      img{
+      img {
         border-radius: 50px;
         filter: grayscale(1);
       }
     }
-    &-infos{
-      .name{
+    &-infos {
+      .name {
         font-family: "Cormorant", serif;
         font-weight: 700;
         color: #fff;
         margin: 0;
         @include responsive-font-size(28px);
       }
-      .office{
+      .office {
         font-weight: 500;
-        color: rgba(255,255,255,0.4);
+        color: rgba(255, 255, 255, 0.4);
         display: inline-block;
         margin-bottom: map-get($spacers, 4);
         @include responsive-font-size(14px);
       }
-      .text{
+      .text {
         font-weight: 500;
         color: #fff;
         line-height: 20px;
         @include responsive-font-size(14px);
       }
-      .date{
+      .date {
         font-weight: 500;
-        color: rgba(255,255,255,0.4);
+        color: rgba(255, 255, 255, 0.4);
         @include responsive-font-size(14px);
       }
     }
   }
-
 }
